@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glenn Suristio - Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Homepage
+            </a>
+            <h1>My Projects</h1>
+            <p class="subtitle">Exploring data science, AI, and machine learning applications</p>
+        </header>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="pacman-project.jpg" alt="AI Pacman Project">
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title">A.I. Pacman</h3>
+                    <p>A classic Pacman game with an AI agent that efficiently finds paths through the maze, locates food, and avoids ghosts using advanced algorithms.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Q-learning</span>
+                        <span class="tech-tag">Markov Decision Process</span>
+                    </div>
+                    <p>The agent uses Q-learning, value iteration, and Markov Decision Process to predict positions and actions that result in the highest reward.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="covid-project.jpg" alt="COVID-19 Data Science Pipeline">
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title">Data Science Pipeline on COVID-19</h3>
+                    <p>An end-to-end analysis of COVID-19 infection rates and handling performance in Indonesia, including data scraping and exploratory analysis.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Seaborn</span>
+                        <span class="tech-tag">Pyplot</span>
+                    </div>
+                    <p>Uses Pandas for data organization, Seaborn for visualization, and hypothesis testing through standardization to compare fatality rates across countries.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="fashion-project.jpg" alt="AI Fashion Recommender">
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title">Generative AI Fashion Recommender</h3>
+                    <p>A personalized outfit recommendation system that suggests fashion items based on user preferences and image data.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">CLIP</span>
+                        <span class="tech-tag">Llama3</span>
+                        <span class="tech-tag">HuggingFace</span>
+                        <span class="tech-tag">RAG</span>
+                    </div>
+                    <p>Integrates CLIP for image-text embedding, Llama3 via HuggingFace Transformers for vision-language model integration, and Retrieval Augmented Generation for personalized recommendations.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Glenn Suristio. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
